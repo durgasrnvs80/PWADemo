@@ -1,0 +1,18 @@
+{
+    "short_name": "PWADemo",
+    "name": "PWADemo",
+    "icons": [
+        {
+            "src": "images/PWADemoIcon1.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/PWADemoIcon2.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "minimal-ui"
+}

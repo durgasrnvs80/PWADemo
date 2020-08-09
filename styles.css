@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: calibri, arial;
+}
+
+body {
+    height: 100vh;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 5px 0;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    padding: 5px 0;
+}
+
+#canvas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#defaultCanvas0 {
+    border: 5px solid grey;
+}
